@@ -14,5 +14,7 @@ Scalability: Built to handle increasing data and user demands.
 
 # Technologies Used:
 1.Programming languages used: 
+
 2.Framework & Libraries: 
+
 3.Database:
