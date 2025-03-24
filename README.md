@@ -4,13 +4,13 @@
 It integrates multiple technologies and concepts to build a practical and # efficient solution. The project is designed to solve real-world problems by leveraging advanced algorithms, AI-driven insights, and optimized performance.
 
 # Key Features:
-Seamless Integration: Combines different technologies to create a unified system.
+* Seamless Integration: Combines different technologies to create a unified system.
 
-Efficient Algorithms: Implements optimized methods for faster performance.
+* Efficient Algorithms: Implements optimized methods for faster performance.
 
-User-Friendly Interface: Designed for intuitive and easy interaction.
+* User-Friendly Interface: Designed for intuitive and easy interaction.
 
-Scalability: Built to handle increasing data and user demands.
+* Scalability: Built to handle increasing data and user demands.
 
 # Technologies Used:
 1.Programming languages used: 
