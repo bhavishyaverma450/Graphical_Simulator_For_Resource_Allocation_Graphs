@@ -1,0 +1,283 @@
+/* frontend/src/styles.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main App Container */
+  .app-container {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+  }
+  
+  /* Form Container */
+  .form-container {
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 50%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input, Select, and Button Styles */
+  input,
+  select,
+  button {
+    margin: 5px;
+    padding: 10px 14px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input:focus,
+  select:focus {
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(72, 239, 72, 0.5);
+  }
+  
+  /* Button Styles */
+  button {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Graph Container */
+  .graph-container {
+    margin-top: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  /* Cytoscape Graph Canvas */
+  #cy {
+    width: 100%;
+    height: 400px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-top: 10px;
+    background-color: #fff;
+  }
+  
+  /* Node and Edge Styles */
+  .node {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+    color: white;
+  }
+  
+  /* Status Message for Deadlock & Save/Load */
+  .status-message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  /* Deadlock Detection */
+  .deadlock {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+  }
+  
+  .no-deadlock {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+  }
+  
+  /* Save/Load Status */
+  .status {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #d1ecf1;
+    color: #0c5460;
+    border: 1px solid #bee5eb;
+  }
+  
+  /* Error Message Styles */
+  .error {
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Success Message Styles */
+  .success {
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  /* Save/Load Buttons */
+  .save-load-btn-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .save-load-btn {
+    background-color: #17a2b8;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .save-load-btn:hover {
+    background-color: #138496;
+  }
+  
+  /* ========================= */
+  /* NEW PHASE 5 STYLES        */
+  /* ========================= */
+  
+  /* Graph Statistics Container */
+  .stats-container {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #d1ecf1;
+    background-color: #e8f8ff;
+    border-radius: 8px;
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-container p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #0c5460;
+  }
+  
+  /* Deadlock Details */
+  .deadlock-details {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #f8d7da;
+    background-color: #fff3cd;
+    border-radius: 8px;
+    text-align: left;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .deadlock-details p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #721c24;
+  }
+  
+  /* Advanced Button Styles for Graph Stats */
+  .stats-btn {
+    background-color: #ffc107;
+    color: #212529;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .stats-btn:hover {
+    background-color: #e0a800;
+  }
+  
+  /* Deadlock Details Button */
+  .details-btn {
+    background-color: #fd7e14;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .details-btn:hover {
+    background-color: #e86c00;
+  }
+  
+  /* ========================= */
+/* PHASE 6: CHART STYLES     */
+/* ========================= */
+
+/* Chart Container */
+.chart-container {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Chart Wrapper */
+  .chart-wrapper {
+    width: 70%;
+    margin: 0 auto;
+  }
+  
+  /* Chart Canvas */
+  canvas {
+    margin-top: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fafafa;
+  }
+  
+  /* Chart Heading */
+  h3 {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  
+  
+  
